@@ -2141,7 +2141,7 @@ var socials = [
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/",
+        href: "https://www.reddit.com/r/MarsSwap",
     },
 ];
 var MENU_HEIGHT = 64;

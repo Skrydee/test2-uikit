@@ -91,7 +91,7 @@ export const socials = [
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/", // TODO
+    href: "https://www.reddit.com/r/MarsSwap",
   },
 ];
 
