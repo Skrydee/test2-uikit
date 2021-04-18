@@ -34,6 +34,11 @@ export const links = [
     icon: 'RoadmapIcon',
     href: 'https://docs.marsswap.finance/roadmap',
   },
+  {
+    label: 'Audit',
+    icon: 'AuditIcon',
+    href: 'https://marsswap.finance/audits/techrate.pdf',
+  },
   // {
   //   label: 'Info',
   //   icon: 'InfoIcon',
@@ -61,7 +66,7 @@ export const links = [
         href: 'https://medium.com/marsswap',
       },
       {
-        label: 'White Paper',
+        label: 'Whitepaper',
         href: 'https://marsswap.finance/whitepaper.pdf',
       },
     ],
