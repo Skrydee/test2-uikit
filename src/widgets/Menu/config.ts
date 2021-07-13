@@ -1,43 +1,56 @@
 export const links = [
   {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: '/',
+    label: "Home",
+    icon: "HomeIcon",
+    href: "/",
   },
   {
-    label: 'Exchange',
-    href: 'https://exchange.marsswap.finance/swap',
-    icon: "ExchangeIcon"
+    label: "Trade",
+    icon: "TradeIcon",
+    items: [
+      {
+        label: "Exchange",
+        href: "https://exchange.marsswap.finance/swap",
+      },
+      {
+        label: "Liquidity",
+        href: "https://exchange.marsswap.finance/pool",
+      },
+    ],
   },
   {
-    label: 'Liquidity',
-    href: 'https://exchange.marsswap.finance/pool',
-    icon: 'LiquidityIcon'
+    label: "Farms",
+    icon: "FarmIcon",
+    href: "/farms",
   },
   {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: '/farms',
+    label: "Pools",
+    icon: "PoolIcon",
+    href: "/pools",
   },
   {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: '/pools',
+    label: "Referrals",
+    icon: "GroupsIcon",
+    href: "/referrals",
   },
   {
-    label: 'Referrals',
-    icon: 'GroupsIcon',
-    href: '/referrals',
+    label: "Roadmap",
+    icon: "RoadmapIcon",
+    href: "https://docs.marsswap.finance/roadmap",
   },
   {
-    label: 'Roadmap',
-    icon: 'RoadmapIcon',
-    href: 'https://docs.marsswap.finance/roadmap',
-  },
-  {
-    label: 'Audit',
-    icon: 'AuditIcon',
-    href: 'https://marsswap.finance/audits/techrate.pdf',
+    label: "Audits",
+    icon: "AuditIcon",
+    items: [
+      {
+        label: "RD Auditors",
+        href: "https://marsswap.finance/audits/rdauditors.pdf",
+      },
+      {
+        label: "Techrate",
+        href: "https://marsswap.finance/audits/techrate.pdf",
+      },
+    ],
   },
   // {
   //   label: 'Info',
@@ -50,28 +63,28 @@ export const links = [
   //   ],
   // },
   {
-    label: 'More',
-    icon: 'MoreIcon',
+    label: "More",
+    icon: "MoreIcon",
     items: [
       {
-        label: 'Github',
-        href: 'https://github.com/MarsSwapFinance',
+        label: "Github",
+        href: "https://github.com/MarsSwapFinance",
       },
       {
-        label: 'Docs',
-        href: 'https://docs.marsswap.finance/',
+        label: "Docs",
+        href: "https://docs.marsswap.finance/",
       },
       {
-        label: 'Blog',
-        href: 'https://medium.com/marsswap',
+        label: "Blog",
+        href: "https://medium.com/marsswap",
       },
       {
-        label: 'Whitepaper',
-        href: 'https://marsswap.finance/whitepaper.pdf',
+        label: "Whitepaper",
+        href: "https://marsswap.finance/whitepaper.pdf",
       },
     ],
   },
-]
+];
 
 export const socials = [
   {
