@@ -18,6 +18,7 @@ export { default as NftIcon } from "./Nft";
 export { default as PoolIcon } from "./Pool";
 export { default as RedditIcon } from "./Reddit";
 export { default as RoadmapIcon } from "./Roadmap";
+export { default as StocksIcon } from "./Stocks";
 export { default as SunIcon } from "./Sun";
 export { default as TelegramIcon } from "./Telegram";
 export { default as TicketIcon } from "./Ticket";
