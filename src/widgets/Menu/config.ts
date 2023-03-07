@@ -33,25 +33,25 @@ export const links = [
     icon: "GroupsIcon",
     href: "/referrals",
   },
-  {
-    label: "Roadmap",
-    icon: "RoadmapIcon",
-    href: "https://docs.marsswap.finance/roadmap",
-  },
-  {
-    label: "Audits",
-    icon: "AuditIcon",
-    items: [
-      {
-        label: "RD Auditors",
-        href: "https://marsswap.finance/audits/rdauditors.pdf",
-      },
-      {
-        label: "Techrate",
-        href: "https://marsswap.finance/audits/techrate.pdf",
-      },
-    ],
-  },
+  //{
+    //label: "Roadmap",
+    //icon: "RoadmapIcon",
+    //href: "https://docs.marsswap.finance/roadmap",
+  //},
+  //{
+    //label: "Audits",
+    //icon: "AuditIcon",
+    //items: [
+      //{
+        //label: "RD Auditors",
+        //href: "https://marsswap.finance/audits/rdauditors.pdf",
+      //},
+      //{
+        //label: "Techrate",
+        //href: "https://marsswap.finance/audits/techrate.pdf",
+      //},
+    //],
+  //},
   // {
   //   label: 'Info',
   //   icon: 'InfoIcon',
@@ -92,12 +92,12 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
-        href: "https://t.me/MarsSwap",
+        label: "TEST",
+        href: "https://t.me/TEST",
       },
       {
-        label: "Announcements",
-        href: "https://t.me/MarsSwap_News",
+        label: "TEST",
+        href: "https://t.me/TEST",
       },
     ],
   },
